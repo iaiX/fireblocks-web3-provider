@@ -1,4 +1,4 @@
-export { version } from "../package.json"
+export { version } from "../package.json";
 export * from "./provider";
 export * from "./types";
 export * from "./constants";

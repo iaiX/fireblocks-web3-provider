@@ -17,10 +17,7 @@ export function formatJsonRpcRequest(
   };
 }
 
-export function formatJsonRpcResult(
-  id: number,
-  result: any
-): any {
+export function formatJsonRpcResult(id: number, result: any): any {
   return {
     id,
     jsonrpc: "2.0",
